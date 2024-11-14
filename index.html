@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Book Your Travel</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="email" placeholder="Enter Your Name" readonly>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" placeholder="Enter your phone number" required>
+            </div>
+<div class="form-group">
+    <label for="destination">Destination:</label>
+    <select id="destination" required>
+    <option value="" disabled selected>Select a destination</option>
+    <option value="paris">Paris</option>
+    <option value="Japan">Japan</option>
+    <option value="Tokyo">Tokyo</option>
+    <option value="new york">New York</option>
+    <option value="London">London</option>
+    <option value="Canada">Canada</option>
+    </select>
+</div>
+<div class="form-group">
+    <label for="date">Travel Date:</label>
+    <input type="date" id="date" required>
+</div>
+<div class="form-group">
+    <label for="travelers">Number of travelers:</label>
+    <select id="travelers" required>
+        <option value="" disabled selected>Select number of travelers</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6+</option>
+    </select>
+</div>
+<button type="submit">Book Now</button>
+        </form>
+    </div>
+</body>
+</html>
